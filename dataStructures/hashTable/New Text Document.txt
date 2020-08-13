@@ -1,0 +1,33 @@
+TEST CASE1 ( word found in two and three file) 25pts
+files : 
+3
+a.txt
+b.txt
+c.txt
+zipPer yIEldINg
+word1: zipPer   a.txt exist b.txt exist c.txt exist
+word2: yIEldINg a.txt exist b.txt exist
+_______________________________________________________
+TEST CASE2 (not exist) 25pts
+files : 
+2
+c.txt
+d.txt
+original minimal
+word1:  original d.txt  not exist
+word2:  minimal  c.txt  not exist
+________________________________________________________
+TEST CASE3 ( word found in 1 one file only) 25pts
+files :
+6
+a.txt
+b.txt
+c.txt
+d.txt
+e.txt
+f.txt
+zenith zzzzzz
+word1: zenith e.txt exist others not exist
+word2: zzzzzz e.txt exist others not exist
+________________________________________________________
+Speed up 25pts
